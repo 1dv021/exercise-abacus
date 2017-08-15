@@ -3,20 +3,21 @@
  *
  * @author John Häggerud
  * @author Mats Loock
- * @version 1.0.1
+ * @version 1.1.0
  */
 
-'use strict';
+'use strict'
 
 /**
  * Returns the sum of the arguments passed.
  *
- * @param {...*} var_args
+ * @param {...*} varArgs
  * @returns {Number} The sum of an arbitrary number of numbers.
  */
-exports.add = function(var_args) {
-  // Utilize the 'arguments' object here, not the 'var_args' parameter.
+function add (varArgs) {
+  // Utilize the 'arguments' object here, not the 'varArgs' parameter.
 
   // TODO: Write your code here.
+}
 
-};
+exports.add = add
