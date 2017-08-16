@@ -31,11 +31,15 @@ sum = abacus.add(1, 2, [3, 4], 5, [6, 7]) // OBS! Det ska gå att skicka med arr
 console.log(sum) // 28
 ```
 
-> Vill du göra det extra svårt för dig? Se till att metoden klara av att hantera nästlade arrayer, d.v.s. arryer inuti arrayer, vilket kräver någon form av rekursion.
+---
+Vill du göra det extra svårt för dig? Se till att metoden klara av att hantera nästlade arrayer, d.v.s. arryer inuti arrayer, vilket kräver någon form av rekursion.
+
 ```js
 sum = abacus.add(1, 2, [3, 4, [6, 7]], 5]) // OBS! Det ska gå att skicka med nästlade arrayer som argument
 console.log(sum) // 28
 ```
+
+---
 
 Anropas funktionen där något av värdena inte är ett tal eller inte kan konverteras till ett tal ska ett undantag av typen `TypeError` kastas med meddelandet `At least one of the arguments can't be parsed as a number.`.
 
