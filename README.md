@@ -1,9 +1,13 @@
 # Kulramen
 
 - C-nivå
-- [GitBook](https://coursepress.gitbooks.io/1dv021/content/ovningsuppgifter/del1/kulramen/)
+- [GitBook](https://coursepress.gitbook.io/1dv021/ovningsuppgifter/del-1/c-niva/kulramen)
+- [Lösningsförslag](https://github.com/1dv021/exercise-solution-proposals/tree/master/part-1/abacus)
+
 
 >__VIKTIGT!__ Innan du börjar arbeta med övningsuppgiften är det viktigt att du följer guiden [Att komma igång med en övningsuppgift](https://coursepress.gitbooks.io/1dv021/content/guider/att-komma-igang-med-en-ovningsuppgift/) för att lägga till övningsuppgiftens repo till ditt repo för övningsuppgifter.
+
+## Uppgift
 
 Hämta hem övningsuppgiftens repo och lägg till en .gitignore-fil. Öppna filen `src\abacus.js` och komplettera funktionen `add` så att samtliga krav uppfylls.
 
@@ -32,6 +36,7 @@ console.log(sum) // 28
 ```
 
 ---
+
 Vill du göra det extra svårt för dig? Se till att metoden klara av att hantera nästlade arrayer, d.v.s. arryer inuti arrayer, vilket kräver någon form av rekursion.
 
 ```js
@@ -91,7 +96,3 @@ Funktioner, metoder, etc. som *kan* komma till användning beroende hur du välj
 - [String.indexOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf)
 - [Number.parseFloat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseFloat), [parseFloat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
 - [Number.isNaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN), [isNaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN)
-
-## Lösningsförslag
-
-- [https://github.com/1dv021/exercise-solution-proposals/tree/master/part-1/abacus](https://github.com/1dv021/exercise-solution-proposals/tree/master/part-1/abacus)
