@@ -20,4 +20,4 @@ function add (varArgs) {
   // TODO: Write your code here.
 }
 
-exports.add = add
+module.exports.add = add
